@@ -67,7 +67,7 @@ public class TestGreeter {
    public void michaelTestGreeter() 
 
    {
-      assertNull(g);
+      assertNotNull(g);
 
       g.setName("World");
 
