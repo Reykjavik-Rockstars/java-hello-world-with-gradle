@@ -66,7 +66,7 @@ public class TestGreeter {
 
    public void newtest_DEO_GreeterPass()
    {
-      assertThat(g,is(null)));	 
+      assertThat(g,is(null));	 
    }
    
    
