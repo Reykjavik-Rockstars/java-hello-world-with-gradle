@@ -62,4 +62,12 @@ public class TestGreeter {
 
    }
 
+   @Test
+
+   public void newtest_DEO_GreeterPass()
+   {
+      assertThat(g,is(not(null)));	 
+   }
+   
+   
 }
