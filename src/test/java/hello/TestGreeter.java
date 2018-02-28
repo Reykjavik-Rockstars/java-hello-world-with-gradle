@@ -53,6 +53,21 @@ public class TestGreeter {
    public void testGreeter() 
 
    {
+      
+      g.setName("World");
+
+      assertEquals(g.getName(),"World");
+
+      assertEquals(g.sayHello(),"Hello World!");
+
+   }
+
+   @Test
+
+   public void michaelTestGreeter() 
+
+   {
+      assertNull(g);
 
       g.setName("World");
 
