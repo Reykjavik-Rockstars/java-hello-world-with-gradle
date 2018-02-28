@@ -64,10 +64,25 @@ public class TestGreeter {
 
    @Test
 
-   public void michaelTestGreeter() 
+   public void newtestMLgreeterPass() 
 
    {
       assertNotNull(g);
+
+      g.setName("World");
+
+      assertEquals(g.getName(),"World");
+
+      assertEquals(g.sayHello(),"Hello World!");
+
+   }
+	
+   @Test
+
+   public void newtestMLgreeterFail() 
+
+   {
+      assertNull(g);
 
       g.setName("World");
 
