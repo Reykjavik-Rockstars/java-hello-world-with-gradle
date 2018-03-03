@@ -63,9 +63,15 @@ public class TestGreeter {
    }
 	
 	@Test
-	public void testName() {
+	public void testAge() {
 		g.setAge(21);
 		assertEquals(g.getAge(), 21);	
+	}
+	
+	@Test
+	public void testEligibility() {
+		g.setAge(20);
+		assertTrue(g.getAge > 20); //no wine for you!
 	}
 
 }
