@@ -61,5 +61,11 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+	
+	@Test
+	public void testName() {
+		g.setAge(21);
+		assertEquals(g.getAge(), 21);	
+	}
 
 }
