@@ -7,8 +7,7 @@ public class Greeter {
 
 
   private String name = "";
-
-
+  private int age = 18;
 
   public String getName() 
 
@@ -17,8 +16,13 @@ public class Greeter {
     return name;
 
   }
-
-
+  
+  public int getAge() {
+    return age; 
+  }
+  public void setAge(int age) {
+    this.age = age;
+  }
 
   public void setName(String name) 
 
