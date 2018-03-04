@@ -66,7 +66,8 @@ public class TestGreeter {
 
    public void newtest_DEO_GreeterPass()
    {
-      assertNotEquals(g.setName("I love it when you call me..."),"Big Pappa");
+      g.setName("I love it when you call me...")
+      assertNotEquals(g.getName(),"Big Pappa");
    }
    
    @Test
