@@ -76,7 +76,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
-	
+
    @Test
 
    public void newtestMLgreeterFail() 
@@ -91,5 +91,5 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
-
+   
 }
