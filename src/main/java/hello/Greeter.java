@@ -7,6 +7,7 @@ public class Greeter {
 
 
   private String name = "";
+  private int cats = 0;
 
 
 
@@ -18,7 +19,13 @@ public class Greeter {
 
   }
 
+  public getCats() {
+    return cats;
+  }
 
+  public void setCats(int newCats) {
+    this.cats = newCats;
+  }
 
   public void setName(String name) 
 

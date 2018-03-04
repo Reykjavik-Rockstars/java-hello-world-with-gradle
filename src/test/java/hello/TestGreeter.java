@@ -62,4 +62,12 @@ public class TestGreeter {
 
    }
 
+   @Test
+
+   public void testCats()
+   {
+   		g.setCats(10);
+   		assertEquals(g.getCats(), 10);
+   }
+
 }
