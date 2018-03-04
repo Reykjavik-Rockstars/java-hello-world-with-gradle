@@ -71,7 +71,7 @@ public class TestGreeter {
 	@Test
 	public void testEligibility() {
 		g.setAge(20);
-		assertTrue(g.getAge > 20); //no wine for you!
+		assertTrue(g.getAge > 21); //no wine for you!
 	}
 
 }
